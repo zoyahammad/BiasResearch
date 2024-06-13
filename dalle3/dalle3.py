@@ -34,6 +34,7 @@ for i in range(0,1):
 
 print(" Total time --- %s seconds ---" % (time.time() - start_time))
 
+# Reference: https://platform.openai.com/docs/guides/images/generations
 
 
 
