@@ -22,3 +22,5 @@ for i in range(0, 1):
     ).images[0].save(f'cascade/doctor/cascade-{i}.png')
 
 print(" Total time --- %s seconds ---" % (time.time() - start_time))
+
+# Reference: https://huggingface.co/stabilityai/stable-cascade
