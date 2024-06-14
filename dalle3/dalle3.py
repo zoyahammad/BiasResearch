@@ -25,7 +25,7 @@ for i in range(0,1):
     image_data = requests.get(image_url).content
 
     # Specify the file path where you want to save the image
-    file_path = f'doctor/doctor_{image_url}.jpg'
+    file_path = f'doctor/doctor_{i}.jpg'
 
     # Write the image data to the specified file
     with open(file_path, "wb") as f:
