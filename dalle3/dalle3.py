@@ -22,7 +22,7 @@ for i in range(0,1):
     image_url = response.data[0].url
     
     # Send a GET request to download the image data
-    image_data = requests.get(i).content
+    image_data = requests.get(image_url).content
 
     # Specify the file path where you want to save the image
     file_path = f'doctor/doctor_{image_url}.jpg'
