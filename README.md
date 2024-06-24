@@ -1,2 +1,2 @@
 # BiasResearch
-This repository contains Python scripts used SC, SDXL, DALL-E 3
+This repository contains Python scripts used for SC, SDXL, DALL-E 3
